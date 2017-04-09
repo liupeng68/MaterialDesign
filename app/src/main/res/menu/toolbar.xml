@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/biaoji"
+        android:icon="@mipmap/a1"
+        android:title="ADD"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/dele"
+        android:icon="@mipmap/c1"
+        android:title="Delet"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/setting"
+        android:icon="@mipmap/b1"
+        android:title="Setting"
+        app:showAsAction="never"
+        />
+
+</menu>
